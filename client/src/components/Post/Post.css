@@ -1,0 +1,25 @@
+.postActions {
+  display: flex;
+  gap: 10px;
+  margin-top: 1 rem;
+}
+
+
+
+.edit {
+  /* width: 100%; Full width */
+  /* max-width: 90vw; Limits width to 90% of viewport */
+  /* padding: 10px; */
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  box-sizing: border-box;
+  white-space: nowrap;
+  overflow-x: auto; /* Enables horizontal scrolling */
+}
+
+.edit {
+  border-color: orange; /* Highlight on focus */
+  box-shadow: 0 0 5px rgba(255, 88, 22, 0.5);
+}
